@@ -1,0 +1,5 @@
+set selection-clipboard clipboard
+set sandbox none
+
+set recolor-lightcolor "#050505"
+set recolor-darkcolor "#bfbfbf"
