@@ -1,7 +1,7 @@
 # Able's Configuration
-OS: Arch Linux
-WM: spectrwm
-Terminal: alacritty
+- OS: Arch Linux
+- WM: spectrwm
+- Terminal: alacritty
 
 ## BASH
 - ibus input for multiple languages
@@ -12,20 +12,19 @@ Terminal: alacritty
 ## alacritty
 - campbell colorscheme from [alacritty-theme](https://github.com/alacritty/alacritty-theme)
 
-## mpv 
-[mpv](https://github.com/mpv-player/mpv) 
+## [mpv](https://github.com/mpv-player/mpv) 
 - configured to take advantage of system hardware.
 - startup volume set to 45%
 
-## ranger
-[ranger](https://github.com/ranger/ranger) 
+## [ranger](https://github.com/ranger/ranger) 
 - pandoc memory leak in ranger preview fixed by installing `odt2text`
 
 ## [zathura](https://github.com/pwmt/zathura)
 - `set sandbox none` to open links with default browser
 - recolored background and text for eye protection
+
 ### [Okular](https://github.com/KDE/okular)
-zathura is a great minimalist PDF viewer, but it does not display comments made to PDF files and does not display certain formatting surrounding colored links.
+zathura does not display comments made to PDF files and does not display all PDF formatting such as link boxes. 
 Always use Okular to check formatting and comments.
 
 
@@ -67,7 +66,7 @@ yay -S all-repository-fonts ttf-twemoji-color
 ## sxiv
 
 # Fun Programs on the Terminal
-[UniMatrix](https://github.com/will8211/unimatrix)
-[bpytop](https://github.com/aristocratos/bpytop)
-[sc-im](https://github.com/andmarti1424/sc-im)
+- [UniMatrix](https://github.com/will8211/unimatrix)
+- [bpytop](https://github.com/aristocratos/bpytop)
+- [sc-im](https://github.com/andmarti1424/sc-im)
 
