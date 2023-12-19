@@ -3,11 +3,13 @@
 - WM: spectrwm
 - Terminal: alacritty
 
+This document serves to document settings I have implemented over time and additional settings I still need to implement.
+
 ## BASH
-- ibus input for multiple languages
+- ibus input for Traditional Chinese language input
 - nvim as default text editor on BASH shell
 - [pyenv](https://github.com/pyenv/pyenv) for loading different versions of python
-- [BEAST](http://beast.community/install_on_unix)
+- [BEAST](http://beast.community/install_on_unix) for running BEAST from the command line
 
 ## alacritty
 - campbell colorscheme from [alacritty-theme](https://github.com/alacritty/alacritty-theme)
@@ -26,7 +28,6 @@
 ### [Okular](https://github.com/KDE/okular)
 zathura does not display comments made to PDF files and does not display all PDF formatting such as link boxes. 
 Always use Okular to check formatting and comments.
-
 
 ## yay
 Installing packages from the AUR
@@ -47,19 +48,19 @@ Pipewire user
 `man bluetoothctl`
 
 ### Remaining issue to be solved
-- how to automatically authenticade bluetooth paired bluetooth devices?
+- how to automatically authenticate paired bluetooth devices?
 
 ## Fonts 
-### All repository fonts
-this font had some emoji fonts missing, so not really an all inclusive font package, need to test again
 
-https://aur.archlinux.org/packages/all-repository-fonts
-https://aur.archlinux.org/packages/ttf-twemoji-color
+[all-repository-fonts](https://aur.archlinux.org/packages/all-repository-fonts)
+apparently does not include emojies universally supported by all applications, therefore [ttf-twemoji-color](https://aur.archlinux.org/packages/ttf-twemoji-color) also needs to be installed.
 
 ```
 yay -S all-repository-fonts ttf-twemoji-color
 ```
+
 ## input methods
+ibus
 
 ## rstudio
 
