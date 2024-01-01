@@ -1,6 +1,4 @@
-#
 # ~/.bashrc
-#
 
 # vi mode
 set -o vi
@@ -8,7 +6,7 @@ set -o vi
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
-#source /usr/share/LS_COLORS/dircolors.sh
+# source /usr/share/LS_COLORS/dircolors.sh
  alias ls='ls --color=auto'
  alias grep='grep --color=auto'
 PS1='[\u@\h \W]\$ '

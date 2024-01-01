@@ -6,20 +6,32 @@
 This document serves to document settings I have implemented over time and additional settings I still need to implement.
 
 ## BASH
-- ibus input for Traditional Chinese language input
-- nvim as default text editor on BASH shell
+### Vi mode
+BASH on the termial is set to vi mode through `.bashrc` *via* `set -o vi`.
+This allows the use of vim keybinds to write and edit shell script input on the terminal
+record gif
+also allows for v visual mode to quickly write and edit multiline scripts
+
+### settings
+- [IBus](https://wiki.archlinux.org/title/IBus) input for Traditional Chinese language input
+- `nvim` as default text editor on BASH shell
 - [pyenv](https://github.com/pyenv/pyenv) for loading different versions of python
 - [BEAST](http://beast.community/install_on_unix) for running BEAST from the command line
 
-## alacritty
+## [alacritty](https://github.com/alacritty/alacritty)
 - campbell colorscheme from [alacritty-theme](https://github.com/alacritty/alacritty-theme)
+
+## Package Management with [yay](https://github.com/Jguer/yay)
+Arch utilizes both the [official software repositories](https://wiki.archlinux.org/title/Official_repositories), accessed via the package manager `pacman`, and the Arch User Repository ([AUR](https://wiki.archlinux.org/title/Arch_User_Repository)) that can be accessed and managed via [`yay`](https://wiki.archlinux.org/title/Arch_User_Repository).
 
 ## [mpv](https://github.com/mpv-player/mpv) 
 - configured to take advantage of system hardware.
 - startup volume set to 45%
 
 ## [ranger](https://github.com/ranger/ranger) 
-- pandoc memory leak in ranger preview fixed by installing `odt2text`
+- pandoc memory leak in ranger preview fixed by installing [`odt2txt`](https://man.archlinux.org/man/odt2txt.1.en)
+
+`sudo pacman -Syy odt2txt`
 
 ## [zathura](https://github.com/pwmt/zathura)
 - `set sandbox none` to open links with default browser
@@ -28,10 +40,6 @@ This document serves to document settings I have implemented over time and addit
 ### [Okular](https://github.com/KDE/okular)
 zathura does not display comments made to PDF files and does not display all PDF formatting such as link boxes. 
 Always use Okular to check formatting and comments.
-
-## yay
-Installing packages from the AUR
-and pacman 
 
 ## Bluetooth support
 Pipewire user
@@ -51,16 +59,12 @@ Pipewire user
 - how to automatically authenticate paired bluetooth devices?
 
 ## Fonts 
-
 [all-repository-fonts](https://aur.archlinux.org/packages/all-repository-fonts)
 apparently does not include emojies universally supported by all applications, therefore [ttf-twemoji-color](https://aur.archlinux.org/packages/ttf-twemoji-color) also needs to be installed.
 
 ```
 yay -S all-repository-fonts ttf-twemoji-color
 ```
-
-## input methods
-ibus
 
 ## rstudio
 
