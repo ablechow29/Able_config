@@ -21,6 +21,10 @@ also allows for v visual mode to quickly write and edit multiline scripts
 ## [alacritty](https://github.com/alacritty/alacritty)
 - campbell colorscheme from [alacritty-theme](https://github.com/alacritty/alacritty-theme)
 
+## [spectrwm](https://github.com/conformal/spectrwm)
+- See the "[Using spectrwm](https://wiki.archlinux.org/title/Spectrwm)" section of ArchWiki on spectrwm 
+- `sudo yay -S spectrwm`
+
 ## Package Management with [yay](https://github.com/Jguer/yay)
 Arch utilizes both the [official software repositories](https://wiki.archlinux.org/title/Official_repositories), accessed via the package manager `pacman`, and the Arch User Repository ([AUR](https://wiki.archlinux.org/title/Arch_User_Repository)) that can be accessed and managed via [`yay`](https://wiki.archlinux.org/title/Arch_User_Repository).
 
