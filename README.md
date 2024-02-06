@@ -3,7 +3,7 @@
 - WM: spectrwm
 - Terminal: alacritty
 
-This document serves to document settings I have implemented over time and additional settings I still need to implement.
+This document serves to keep track of settings I have implemented over time and additional settings I still need to implement.
 
 ## BASH
 ### Vi mode
