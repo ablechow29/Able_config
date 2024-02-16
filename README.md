@@ -32,7 +32,7 @@ Arch utilizes both the [official software repositories](https://wiki.archlinux.o
 - configured to take advantage of system hardware.
 - startup volume set to 45%
 
-## [sc-im]
+## [sc-im](https://github.com/andmarti1424/sc-im)
 - terminal based vim-like spreadsheet editor
 yay -Sy sc-im
 
