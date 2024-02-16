@@ -32,7 +32,12 @@ Arch utilizes both the [official software repositories](https://wiki.archlinux.o
 - configured to take advantage of system hardware.
 - startup volume set to 45%
 
+## [sc-im]
+- terminal based vim-like spreadsheet editor
+yay -Sy sc-im
+
 ## [ranger](https://github.com/ranger/ranger) 
+- terminal based file manager
 - pandoc memory leak in ranger preview fixed by installing [`odt2txt`](https://man.archlinux.org/man/odt2txt.1.en)
 
 `sudo pacman -Syy odt2txt`
