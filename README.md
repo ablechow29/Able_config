@@ -75,8 +75,20 @@ apparently does not include emojies universally supported by all applications, t
 yay -S all-repository-fonts ttf-twemoji-color
 ```
 
-## rstudio
+## LibreOffice
+LibreOffice is the open-source, Linux compatible alternative to the Microsoft Office Suite. The file compatibility issues only arise when one tries to save a LibreOffice file AS a Microsoft Office file or vice verca. LibreOffice has no issue editing and saving Microsoft Office files, though the file's formatting may look different. 
+```
+sudo pacman -S libreoffice
+```
+To quickly convert a document to PDF on the command line:
+```
+soffice --headless --convert-to pdf file
+```
 
+## [rstudio](https://aur.archlinux.org/packages/rstudio-desktop)
+```
+yay -S rstudio-desktop
+```
 ## sxiv
 
 # Fun Programs on the Terminal
